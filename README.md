@@ -1,5 +1,5 @@
 # elasticsearch-max-result-window
-Feature to set Max Result Window Size on Reindexing
+Feature to set Max Result Window Size on Reindexing in Magento 2
 
 Issue:- Elastic Search have default parameter is set to 10000 but incase if you have products more than 10000 in particular category and if you are using any plugin in quick search field then the elastic search will thrown an error to increase the max result window size or else use scroll API. For example if category watches having 12000 products and you did search for watches then it will fetch all 12000 products in quick search field if your not used any pagination or scrop API then it will break the site and you will not get the results.
 
