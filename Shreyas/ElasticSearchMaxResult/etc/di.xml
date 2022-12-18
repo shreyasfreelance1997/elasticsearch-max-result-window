@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Elasticsearch\Model\Adapter\Index\Builder">
+        <plugin name="shreyas_max_value_set" type="Shreyas\ElasticSearchMaxResult\Plugin\Adapter\Index\Builder" sortOrder="1" disabled="false"/>
+    </type>
+</config>
